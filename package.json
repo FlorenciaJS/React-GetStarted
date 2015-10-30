@@ -1,0 +1,24 @@
+{
+  "name": "React-GetStarted",
+  "version": "0.0.1",
+  "description": "Awesome, my first step in ReactJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FlorenciaJS/React-GetStarted.git"
+  },
+  "keywords": [
+    "ReactJS",
+    "Examples",
+    "JavaScript",
+    "jsx"
+  ],
+  "author": "Juan David Echeverry Rivera (e.juandav@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FlorenciaJS/React-GetStarted/issues"
+  }
+}
