@@ -16,9 +16,23 @@
     "JavaScript",
     "jsx"
   ],
-  "author": "Juan David Echeverry Rivera (e.juandav@gmail.com)",
+  "author": {
+    "github": "https://github.com/juandav",
+    "twitter": "https://twitter.com/@juanqtx",
+    "gmail": "e.juandav@gmail.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/FlorenciaJS/React-GetStarted/issues"
+  },
+  "dependencies": {
+    "react": "^0.14.1",
+    "react-dom": "^0.14.1",
+    "babelify": "^6.1.2",
+    "browserify": "^10.2.4",
+    "jquery": "^2.1.4"
+  },
+  "scripts": {
+    "build": "browserify -t babelify ExampleSimpleComponents/app.js > ExampleSimpleComponents/bundle.js"
   }
 }
